@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: brown;
+    padding: 25px;  /* preenchimento */ 
+    color: aliceblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#pizzaHeader {  /* # é para ids */
+    width: 40px;  /* largura */ 
+    display: inline;
+    margin-left: 0px;
+}
+
+.navegacao {  /* ponto é para class */
+
+    background-color: tomato;   /* cor de fundo */
+    color: aliceblue;           /* cor da fonte */
+    padding: 8px;                 /* preenchimento */
+
+    display: flex;                /* deixa a estrutura flexivel */
+    justify-content: center;      /*  alinhamento horizontal */
+    align-items: center;          /* alinhamento vertical */
+}
+
+footer{
+    background-color: brown;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+
+}
+
+.cardapio {
+display: flex;
+justify-content: center;
+background-color: bisque;
+}
+
+#img2{
+    width: 185px;
+
+}
+
+#paragrafo {
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
